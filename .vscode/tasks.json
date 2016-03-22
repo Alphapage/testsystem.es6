@@ -1,0 +1,19 @@
+{
+	"version": "0.1.0",
+	"command": "",
+	"isShellCommand": true,
+     "suppressTaskName": true,
+    "showOutput": "always",
+            "args": [],
+	"tasks": [
+       {
+			"taskName": "debug:test",
+			// Make this the default build command.
+			"isBuildCommand": true,            
+			// Show the output window only if unrecognized errors occur.
+			"args": [
+                "npm","run","debug:test"
+            ]
+		}
+	]
+}
